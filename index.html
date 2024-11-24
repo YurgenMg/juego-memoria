@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="contenedor-principal">
+        <header>
+            <h1>Juego de Memoria</h1>
+            <div id="fecha-hora"></div> 
+            <div id="informacion">
+                <div id="reloj">Tiempo restante: <span id="tiempo">03:00</span></div>
+                <div id="parejas-restantes">Parejas restantes: <span id="contador-parejas">8</span></div>
+            </div>
+        </header>
+    
+        <main>
+            <div id="botones">
+                <button id="iniciar">Iniciar juego</button>
+                <button id="reiniciar" disabled>Reiniciar juego</button>
+                <button id="recargar">Recargar página</button>
+            </div>
+            <section id="tablero"></section>
+        </main>
+    
+        <footer>
+            <p>YurgenMg © 2024 Juego de Memoria Frutal. Todos los derechos reservados.</p>
+        </footer>
+    </div>    
+</body>
+</html>
